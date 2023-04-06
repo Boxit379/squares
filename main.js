@@ -1,8 +1,8 @@
 // Variables
-colors = [
+let colors = [
     "white", "red", "darkorange", "yellow", "lime", "darkgreen", "deepskyblue", "blue", "darkviolet", "magenta", "black"
 ]
-achievements = [];
+let achievements = [];
 
 // Functions
 function clickSquare(id, click) {
@@ -236,7 +236,7 @@ document.addEventListener("contextmenu", function(e){
 for (let i = 0; i < 7; i++) {
     let styles = [];
     for (let j = 0; j < 7; j++) {
-        if (defaultAchievements[3].conditions[0][i*7+j] === 10) {
+        if (defaultAchievements[1].conditions[0][i*7+j] === 10) {
             styles.push("color: black; font-family: monospace;");
         } else {
             styles.push("color: lime; font-family: monospace;");
